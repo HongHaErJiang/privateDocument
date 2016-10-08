@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFBEF0C41CD0E06800DD5051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0C31CD0E06800DD5051 /* main.m */; };
+		FFBEF0C71CD0E06800DD5051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0C61CD0E06800DD5051 /* AppDelegate.m */; };
+		FFBEF0CA1CD0E06800DD5051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0C91CD0E06800DD5051 /* ViewController.m */; };
+		FFBEF0CD1CD0E06800DD5051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBEF0CB1CD0E06800DD5051 /* Main.storyboard */; };
+		FFBEF0CF1CD0E06800DD5051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBEF0CE1CD0E06800DD5051 /* Assets.xcassets */; };
+		FFBEF0D21CD0E06800DD5051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBEF0D01CD0E06800DD5051 /* LaunchScreen.storyboard */; };
+		FFBEF0DD1CD0E06800DD5051 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0DC1CD0E06800DD5051 /* ____Tests.m */; };
+		FFBEF0E81CD0E06800DD5051 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0E71CD0E06800DD5051 /* ____UITests.m */; };
+		FFBEF0F71CD0E11400DD5051 /* DrawBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0F61CD0E11400DD5051 /* DrawBackGroundView.m */; };
+		FFBEF0FA1CD0E1CB00DD5051 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEF0F91CD0E1CB00DD5051 /* LockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBEF0D91CD0E06800DD5051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBEF0B71CD0E06800DD5051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBEF0BE1CD0E06800DD5051;
+			remoteInfo = "滑动解锁";
+		};
+		FFBEF0E41CD0E06800DD5051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBEF0B71CD0E06800DD5051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBEF0BE1CD0E06800DD5051;
+			remoteInfo = "滑动解锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFBEF0BF1CD0E06800DD5051 /* 滑动解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "滑动解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBEF0C31CD0E06800DD5051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFBEF0C51CD0E06800DD5051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFBEF0C61CD0E06800DD5051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFBEF0C81CD0E06800DD5051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFBEF0C91CD0E06800DD5051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFBEF0CC1CD0E06800DD5051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFBEF0CE1CD0E06800DD5051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFBEF0D11CD0E06800DD5051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFBEF0D31CD0E06800DD5051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBEF0D81CD0E06800DD5051 /* 滑动解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBEF0DC1CD0E06800DD5051 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		FFBEF0DE1CD0E06800DD5051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBEF0E31CD0E06800DD5051 /* 滑动解锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动解锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBEF0E71CD0E06800DD5051 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		FFBEF0E91CD0E06800DD5051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBEF0F51CD0E11400DD5051 /* DrawBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBackGroundView.h; sourceTree = "<group>"; };
+		FFBEF0F61CD0E11400DD5051 /* DrawBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBackGroundView.m; sourceTree = "<group>"; };
+		FFBEF0F81CD0E1CB00DD5051 /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		FFBEF0F91CD0E1CB00DD5051 /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBEF0BC1CD0E06800DD5051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBEF0D51CD0E06800DD5051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBEF0E01CD0E06800DD5051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFBEF0B61CD0E06800DD5051 = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0C11CD0E06800DD5051 /* 滑动解锁 */,
+				FFBEF0DB1CD0E06800DD5051 /* 滑动解锁Tests */,
+				FFBEF0E61CD0E06800DD5051 /* 滑动解锁UITests */,
+				FFBEF0C01CD0E06800DD5051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBEF0C01CD0E06800DD5051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0BF1CD0E06800DD5051 /* 滑动解锁.app */,
+				FFBEF0D81CD0E06800DD5051 /* 滑动解锁Tests.xctest */,
+				FFBEF0E31CD0E06800DD5051 /* 滑动解锁UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBEF0C11CD0E06800DD5051 /* 滑动解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0FB1CD0E26200DD5051 /* View */,
+				FFBEF0C51CD0E06800DD5051 /* AppDelegate.h */,
+				FFBEF0C61CD0E06800DD5051 /* AppDelegate.m */,
+				FFBEF0C81CD0E06800DD5051 /* ViewController.h */,
+				FFBEF0C91CD0E06800DD5051 /* ViewController.m */,
+				FFBEF0CB1CD0E06800DD5051 /* Main.storyboard */,
+				FFBEF0C21CD0E06800DD5051 /* Supporting Files */,
+			);
+			path = "滑动解锁";
+			sourceTree = "<group>";
+		};
+		FFBEF0C21CD0E06800DD5051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0CE1CD0E06800DD5051 /* Assets.xcassets */,
+				FFBEF0D01CD0E06800DD5051 /* LaunchScreen.storyboard */,
+				FFBEF0D31CD0E06800DD5051 /* Info.plist */,
+				FFBEF0C31CD0E06800DD5051 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBEF0DB1CD0E06800DD5051 /* 滑动解锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0DC1CD0E06800DD5051 /* ____Tests.m */,
+				FFBEF0DE1CD0E06800DD5051 /* Info.plist */,
+			);
+			path = "滑动解锁Tests";
+			sourceTree = "<group>";
+		};
+		FFBEF0E61CD0E06800DD5051 /* 滑动解锁UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0E71CD0E06800DD5051 /* ____UITests.m */,
+				FFBEF0E91CD0E06800DD5051 /* Info.plist */,
+			);
+			path = "滑动解锁UITests";
+			sourceTree = "<group>";
+		};
+		FFBEF0FB1CD0E26200DD5051 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEF0F81CD0E1CB00DD5051 /* LockView.h */,
+				FFBEF0F91CD0E1CB00DD5051 /* LockView.m */,
+				FFBEF0F51CD0E11400DD5051 /* DrawBackGroundView.h */,
+				FFBEF0F61CD0E11400DD5051 /* DrawBackGroundView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBEF0BE1CD0E06800DD5051 /* 滑动解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBEF0EC1CD0E06800DD5051 /* Build configuration list for PBXNativeTarget "滑动解锁" */;
+			buildPhases = (
+				FFBEF0BB1CD0E06800DD5051 /* Sources */,
+				FFBEF0BC1CD0E06800DD5051 /* Frameworks */,
+				FFBEF0BD1CD0E06800DD5051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "滑动解锁";
+			productName = "滑动解锁";
+			productReference = FFBEF0BF1CD0E06800DD5051 /* 滑动解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBEF0D71CD0E06800DD5051 /* 滑动解锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBEF0EF1CD0E06800DD5051 /* Build configuration list for PBXNativeTarget "滑动解锁Tests" */;
+			buildPhases = (
+				FFBEF0D41CD0E06800DD5051 /* Sources */,
+				FFBEF0D51CD0E06800DD5051 /* Frameworks */,
+				FFBEF0D61CD0E06800DD5051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBEF0DA1CD0E06800DD5051 /* PBXTargetDependency */,
+			);
+			name = "滑动解锁Tests";
+			productName = "滑动解锁Tests";
+			productReference = FFBEF0D81CD0E06800DD5051 /* 滑动解锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFBEF0E21CD0E06800DD5051 /* 滑动解锁UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBEF0F21CD0E06800DD5051 /* Build configuration list for PBXNativeTarget "滑动解锁UITests" */;
+			buildPhases = (
+				FFBEF0DF1CD0E06800DD5051 /* Sources */,
+				FFBEF0E01CD0E06800DD5051 /* Frameworks */,
+				FFBEF0E11CD0E06800DD5051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBEF0E51CD0E06800DD5051 /* PBXTargetDependency */,
+			);
+			name = "滑动解锁UITests";
+			productName = "滑动解锁UITests";
+			productReference = FFBEF0E31CD0E06800DD5051 /* 滑动解锁UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBEF0B71CD0E06800DD5051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BaoWanPei;
+				TargetAttributes = {
+					FFBEF0BE1CD0E06800DD5051 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FFBEF0D71CD0E06800DD5051 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FFBEF0BE1CD0E06800DD5051;
+					};
+					FFBEF0E21CD0E06800DD5051 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FFBEF0BE1CD0E06800DD5051;
+					};
+				};
+			};
+			buildConfigurationList = FFBEF0BA1CD0E06800DD5051 /* Build configuration list for PBXProject "滑动解锁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBEF0B61CD0E06800DD5051;
+			productRefGroup = FFBEF0C01CD0E06800DD5051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBEF0BE1CD0E06800DD5051 /* 滑动解锁 */,
+				FFBEF0D71CD0E06800DD5051 /* 滑动解锁Tests */,
+				FFBEF0E21CD0E06800DD5051 /* 滑动解锁UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBEF0BD1CD0E06800DD5051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBEF0D21CD0E06800DD5051 /* LaunchScreen.storyboard in Resources */,
+				FFBEF0CF1CD0E06800DD5051 /* Assets.xcassets in Resources */,
+				FFBEF0CD1CD0E06800DD5051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBEF0D61CD0E06800DD5051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBEF0E11CD0E06800DD5051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBEF0BB1CD0E06800DD5051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBEF0F71CD0E11400DD5051 /* DrawBackGroundView.m in Sources */,
+				FFBEF0FA1CD0E1CB00DD5051 /* LockView.m in Sources */,
+				FFBEF0CA1CD0E06800DD5051 /* ViewController.m in Sources */,
+				FFBEF0C71CD0E06800DD5051 /* AppDelegate.m in Sources */,
+				FFBEF0C41CD0E06800DD5051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBEF0D41CD0E06800DD5051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBEF0DD1CD0E06800DD5051 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBEF0DF1CD0E06800DD5051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBEF0E81CD0E06800DD5051 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBEF0DA1CD0E06800DD5051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBEF0BE1CD0E06800DD5051 /* 滑动解锁 */;
+			targetProxy = FFBEF0D91CD0E06800DD5051 /* PBXContainerItemProxy */;
+		};
+		FFBEF0E51CD0E06800DD5051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBEF0BE1CD0E06800DD5051 /* 滑动解锁 */;
+			targetProxy = FFBEF0E41CD0E06800DD5051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBEF0CB1CD0E06800DD5051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBEF0CC1CD0E06800DD5051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBEF0D01CD0E06800DD5051 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBEF0D11CD0E06800DD5051 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBEF0EA1CD0E06800DD5051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFBEF0EB1CD0E06800DD5051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBEF0ED1CD0E06800DD5051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "滑动解锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-bwp.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFBEF0EE1CD0E06800DD5051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "滑动解锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-bwp.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFBEF0F01CD0E06800DD5051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "滑动解锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-bwp.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/滑动解锁.app/滑动解锁";
+			};
+			name = Debug;
+		};
+		FFBEF0F11CD0E06800DD5051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "滑动解锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-bwp.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/滑动解锁.app/滑动解锁";
+			};
+			name = Release;
+		};
+		FFBEF0F31CD0E06800DD5051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "滑动解锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-bwp.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "滑动解锁";
+			};
+			name = Debug;
+		};
+		FFBEF0F41CD0E06800DD5051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "滑动解锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-bwp.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "滑动解锁";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBEF0BA1CD0E06800DD5051 /* Build configuration list for PBXProject "滑动解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBEF0EA1CD0E06800DD5051 /* Debug */,
+				FFBEF0EB1CD0E06800DD5051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBEF0EC1CD0E06800DD5051 /* Build configuration list for PBXNativeTarget "滑动解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBEF0ED1CD0E06800DD5051 /* Debug */,
+				FFBEF0EE1CD0E06800DD5051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBEF0EF1CD0E06800DD5051 /* Build configuration list for PBXNativeTarget "滑动解锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBEF0F01CD0E06800DD5051 /* Debug */,
+				FFBEF0F11CD0E06800DD5051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBEF0F21CD0E06800DD5051 /* Build configuration list for PBXNativeTarget "滑动解锁UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBEF0F31CD0E06800DD5051 /* Debug */,
+				FFBEF0F41CD0E06800DD5051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBEF0B71CD0E06800DD5051 /* Project object */;
+}
